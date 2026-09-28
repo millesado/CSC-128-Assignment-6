@@ -1,8 +1,8 @@
-\# Sunny Days Childcare Policy Bot
+# Sunny Days Childcare Policy Bot
 
 
 
-\## About
+## About
 
 
 
@@ -14,7 +14,7 @@ The project uses TF-IDF and cosine similarity to retrieve relevant information b
 
 
 
-\## How to Run
+## How to Run
 
 
 
@@ -42,7 +42,7 @@ The project uses TF-IDF and cosine similarity to retrieve relevant information b
 
 
 
-\## Retrieval and Threshold
+## Retrieval and Threshold
 
 
 
@@ -58,7 +58,7 @@ I also changed some of the knowledge base chunk wording to make it closer to the
 
 
 
-\## Hallucination Tests
+## Hallucination Tests
 
 
 
@@ -66,7 +66,7 @@ I tested five questions that are related to childcare but are not covered by the
 
 
 
-\### Test 1
+### Test 1
 
 Question: Do you offer weekend childcare?
 
@@ -80,7 +80,7 @@ Result: Correctly refused.
 
 
 
-\### Test 2
+### Test 2
 
 Question: Are there cameras parents can watch online?
 
@@ -94,7 +94,7 @@ Result: Correctly refused.
 
 
 
-\### Test 3
+### Test 3
 
 Question: Does the daycare provide transportation from school?
 
@@ -108,7 +108,7 @@ Result: Correctly refused.
 
 
 
-\### Test 4
+### Test 4
 
 Question: What is the teacher to child ratio?
 
@@ -122,7 +122,7 @@ Result: Correctly refused.
 
 
 
-\### Test 5
+### Test 5
 
 Question: Do you give sibling discounts?
 
@@ -136,7 +136,7 @@ Result: Correctly refused.
 
 
 
-\## What I Changed
+## What I Changed
 
 
 
@@ -148,7 +148,7 @@ The bot also has a short circuit. If retrieval finds no matching information, th
 
 
 
-\## Source Attribution
+## Source Attribution
 
 
 
@@ -156,7 +156,7 @@ The bot displays the source of the retrieved information under each grounded ans
 
 
 
-\## If I Had More Time
+## If I Had More Time
 
 
 
